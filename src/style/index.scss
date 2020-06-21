@@ -1,0 +1,9 @@
+// Override bootstrap variables
+$primary: deeppink;
+
+// Import bootstrap
+@import "~bootstrap";
+
+@import "components";
+@import "routes";
+@import "App";

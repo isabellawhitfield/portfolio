@@ -1,0 +1,21 @@
+.home-jumbotron {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.home-jumbotron__overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(black, 0.3);
+  @include border-radius($border-radius-lg);
+  z-index: 10;
+}
+
+.home-jumbotron__content {
+  position: relative;
+  z-index: 20;
+}
