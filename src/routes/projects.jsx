@@ -6,7 +6,7 @@ const Projects = () => {
     <div>
       <h1>Projects</h1>
 
-      <p className="mb-3 mb-md-5">Here are some of the projects I&apos;ve worked on. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium cumque magnam optio quo laboriosam maiores temporibus! Dignissimos eos molestias at!</p>
+      <p className="mb-3 mb-md-5">Here are some of the projects I&apos;ve worked on.</p>
 
       {/* Project - Buy Some Thyme */}
       <div className="project-section mb-3 mb-md-5">
@@ -16,118 +16,114 @@ const Projects = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="https://images.unsplash.com/photo-1534361960057-19889db9621e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
-              alt="First slide"
+              src="/assets/images/project_buysomethyme-01.png"
+              alt="Mobile screenshots of different pages of the BuySomeThyme website"
             />
-            <Carousel.Caption>
+            {/* <Carousel.Caption>
               <h3>First slide label</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
+            </Carousel.Caption> */}
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="https://images.unsplash.com/photo-1561037404-61cd46aa615b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
-              alt="Second slide"
+              src="/assets/images/project_buysomethyme-02.png"
+              alt="Storefront page at desktop size for BuySomeThyme website"
             />
 
-            <Carousel.Caption>
+            {/* <Carousel.Caption>
               <h3>Second slide label</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="https://images.unsplash.com/photo-1544568100-847a948585b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80"
-              alt="Third slide"
-            />
-
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-            </Carousel.Caption>
+            </Carousel.Caption> */}
           </Carousel.Item>
         </Carousel>
 
-        <p>Buy some thyme was cool because X, Y and Z. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat iure veniam soluta ad odit quia unde repellat doloribus, reiciendis necessitatibus! Fuga cum tenetur quasi aliquam. Consectetur nihil explicabo officia animi! Facere in aspernatur dicta odio repudiandae perspiciatis temporibus est ipsa nulla vel unde recusandae, veniam alias cum sequi totam quod.</p>
+        <p>This projects brief was to make a custom theme in Wordpress for a made up business. Introduction: ‘Buy Some Thyme’ is a family-owned produce delivery business. They operate from their farm on Moonshine Rd, Upper Hutt. Their farm services the wider Wellington region by selling and delivering to suppliers and now they want to increase their business by directly selling and delivering to consumers. Home delivered grocery sales have exploded in recent months due to quarantine restrictions, ‘Buy Some Thyme’ wants to increase their sales and grow their business by offering convenience to consumers through an effective online presence. Providing quality healthy and affordable produce to NZ families is a key motivator to them, so they also want their site to showcase who they are, their farming practices, and their strong relationships with their customers.  </p>
 
         <h3>Skills &amp; Experience</h3>
         <div className="row">
           <div className="col-md-6">
             <ul>
-              <li>Lorem, ipsum dolor.</li>
-              <li>Ea, dolores non.</li>
-              <li>Quia, nesciunt magnam?</li>
+              <li>Wordpress Customizer API</li>
+              <li>PHP</li>
+              <li>Deployment hosting</li>
+              <li>Sociological and cultural implications in design</li>
+              <li>Typographic principles</li>
             </ul>
           </div>
           <div className="col-md-6">
             <ul>
-              <li>Lorem ipsum dolor sit.</li>
-              <li>Minima harum modi eveniet.</li>
+              <li>Acceptance testing</li>
+              <li>Compatibility testing</li>
+              <li>Client engagement</li>
+              <li>Contract formulation</li>
+              <li>Training documentation and user over</li>
+
             </ul>
           </div>
         </div>
       </div>
 
 
-      {/* Project - Travel App (?) */}
+      {/* Project - Transport App (?) */}
       <div className="project-section mb-3 mb-md-5">
-        <h2 className="mb-3">Travel App</h2>
+        <h2 className="mb-3">Transport App</h2>
 
         <Carousel className="mb-3">
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
-              alt="First slide"
+              src="/assets/images/project_transport-01.png"
+              alt="Mobile screenshots of different steps from Transport App. A cute kiwi helps you along the way"
             />
             <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h3>This is the final design (mobile first)</h3>
+              {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="https://images.unsplash.com/photo-1477884213360-7e9d7dcc1e48?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
-              alt="Second slide"
+              src="/assets/images/project_transport-02.png"
+              alt="Mobile screenshots of different steps from Transport App. A cute kiwi helps you along the way"
             />
 
-            <Carousel.Caption>
+            {/* <Carousel.Caption>
               <h3>Second slide label</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption>
+            </Carousel.Caption> */}
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
-              alt="Third slide"
+              src="/assets/images/project_transport-03.png"
+              alt="Mobile screenshots of different steps from Transport App. A date picker lets the user specify a date range"
             />
 
-            <Carousel.Caption>
+            {/* <Carousel.Caption>
               <h3>Third slide label</h3>
               <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-            </Carousel.Caption>
+            </Carousel.Caption> */}
           </Carousel.Item>
         </Carousel>
 
-        <p>This project was cool because X, Y and Z. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat iure veniam soluta ad odit quia unde repellat doloribus, reiciendis necessitatibus! Fuga cum tenetur quasi aliquam. Consectetur nihil explicabo officia animi! Facere in aspernatur dicta odio repudiandae perspiciatis temporibus est ipsa nulla vel unde recusandae, veniam alias cum sequi totam quod.</p>
+        <p>Project brief - Tourism New Zealand is a Crown Entity funded by the New Zealand Government. Their task is to market NZ as a tourist destination to the world. They want to expand their brand to a single page application for transport. Focused on visitors staying for short periods, allowing them to book their own transport and plan their routes.
+</p>
 
         <h3>Skills &amp; Experience</h3>
         <div className="row">
           <div className="col-md-6">
             <ul>
-              <li>Lorem, ipsum dolor.</li>
-              <li>Ea, dolores non.</li>
-              <li>Quia, nesciunt magnam?</li>
+              <li>Hi-fi prototype building and design</li>
+              <li>Integration of jQuery plugins (datepicker)</li>
+              <li></li>
             </ul>
           </div>
           <div className="col-md-6">
             <ul>
-              <li>Lorem ipsum dolor sit.</li>
-              <li>Minima harum modi eveniet.</li>
+              <li>Mobile first design</li>
+              <li>User testing and research</li>
+              <li>Form validation</li>
             </ul>
           </div>
         </div>
@@ -142,55 +138,45 @@ const Projects = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="https://images.unsplash.com/photo-1554456854-55a089fd4cb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
-              alt="First slide"
+              src="/assets/images/project_ncownz-01.png"
+              alt="Screenshot of existing NCOWNZ website on mobile and desktop, the mobile website is very hard to read"
             />
             <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h3>NCOW&apos;s existing website</h3>
+              <p>Assumptions (confirmed through user testing): From the home page you can’t understand what the organization is or what it does. Finding this information requires multiple page jumps and clicks, which is a lot of effort on behalf of the user. Their call to action buttons aren’t recognisable and are vague.Their layout and lack of images make the site lack visual appeal. The long twitter scroll is disorienting.
+</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="https://images.unsplash.com/photo-1507146426996-ef05306b995a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
-              alt="Second slide"
+              src="/assets/images/project_ncownz-02.png"
+              alt="Mobile screenshots of the redesigned NCOWNZ website"
             />
 
             <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="https://images.unsplash.com/photo-1514984879728-be0aff75a6e8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80"
-              alt="Third slide"
-            />
-
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              <h3>My redesign of their website</h3>
+              <p>This end product was the result of comprehensive UX process: user testing of existing site, survey, target audience, card sorts, wire frame feedback, user testing on final design</p>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
 
-        <p>This project was cool because X, Y and Z. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat iure veniam soluta ad odit quia unde repellat doloribus, reiciendis necessitatibus! Fuga cum tenetur quasi aliquam. Consectetur nihil explicabo officia animi! Facere in aspernatur dicta odio repudiandae perspiciatis temporibus est ipsa nulla vel unde recusandae, veniam alias cum sequi totam quod.</p>
+        <p>This project was a redesign of an existing website for National Council of Women. <br></br>Their goals are to: Increase awareness of gender equality issues in NZ, their priorities, and what they do as an organization. Call to action to join their organization through becoming a member, donating, staying informed via newsletter/social media/news on the site. Maintaining engagement of existing members through staying informed via newsletter/social media/news on the site.
+</p>
 
         <h3>Skills &amp; Experience</h3>
         <div className="row">
           <div className="col-md-6">
             <ul>
-              <li>Lorem, ipsum dolor.</li>
-              <li>Ea, dolores non.</li>
-              <li>Quia, nesciunt magnam?</li>
+              <li>html</li>
+              <li>CSS</li>
+              <li>Treaty of Waitangi implication in website design</li>
             </ul>
           </div>
           <div className="col-md-6">
             <ul>
-              <li>Lorem ipsum dolor sit.</li>
-              <li>Minima harum modi eveniet.</li>
+              <li>Integrating bootstrap</li>
+              <li>Requirements gathering</li>
             </ul>
           </div>
         </div>

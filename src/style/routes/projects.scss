@@ -1,0 +1,9 @@
+.carousel-control-next, .carousel-control-prev {
+  &:hover {
+    background-color: rgba(black, 0.2);
+  }
+}
+
+.carousel-caption {
+  background-color: rgba(black, 0.5);
+}

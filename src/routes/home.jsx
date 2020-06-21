@@ -13,7 +13,7 @@ const Home = () => {
         <div className="home-jumbotron__content">
           <h1>Hi, I&apos;m Bella!</h1>
 
-          <p>I do stuff and things, Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem magnam optio corrupti quis, tempore quidem earum soluta facilis numquam nulla?</p>
+          <p>I have recently graduated with a diploma in Web and UX design from Yoobee. I have a BA degree in Sociology and Anthropology from Victoria University. I am passionate about the UX design process, believing that user experience is the most import aspect in website design.</p>
 
           <p>
             <LinkContainer to="/projects">
@@ -24,7 +24,7 @@ const Home = () => {
         <div className="home-jumbotron__overlay"></div>
       </Jumbotron>
 
-      <h2>About me</h2>
+      {/* <h2>About me</h2>
 
       <div className="row">
         <div className="col-md-6">
@@ -51,7 +51,7 @@ const Home = () => {
             <li>Minima harum modi eveniet.</li>
           </ul>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
